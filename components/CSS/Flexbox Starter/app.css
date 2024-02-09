@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    border: 5px solid black;
+}
+
+main .sidebar {
+    background-color: #6930c3;
+    flex: 1 2 200px;
+}
+
+main .maincontent {
+    background-color: #64dfdf;
+    flex: 2 1 600px;
+}

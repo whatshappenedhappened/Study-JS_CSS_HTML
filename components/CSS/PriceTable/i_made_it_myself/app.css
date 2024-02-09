@@ -1,0 +1,169 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color: #4c9dfa;
+}
+
+main {
+    margin: 5% 0;
+    padding: 2%;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+}
+
+section.offer {
+    transition: 0.3s;
+    padding: 5%;
+    width: 30%;
+    /* border-right: 2px solid #ccc; */
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-between;
+}
+
+section, button {
+    text-transform: uppercase;
+}
+
+/* .offer_image {
+    display: flex;
+    flex-basis: 20px;
+    width: 20%;
+} */
+.offer_img {
+    padding: 1rem;
+    transition: 0.3s;
+    width: 40%;
+    height: 40%;
+}
+
+main div {
+    text-align: center;
+}
+
+/* .offer_description {
+    text-align: center;
+} */
+
+button {
+    padding: 0.8em 2em;
+    border: 2px solid #acc2db;
+    border-radius: 0.5em;
+    background: none;
+    font-size: 1.2rem;
+    color: #1d70ce;
+    transition: all 200ms ease-in;
+}
+
+.offer_title {
+    transition: 0.3s;
+    color: #606060;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 2em;
+}
+
+.offer_price, .offer_price p {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+li {
+    margin: 0;
+    list-style: none;
+    padding: 1rem 0;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    font-size: 0.9rem;
+    color: #0669d9;
+}
+
+li:last-child {
+    border-top: none;
+}
+
+.offer:last-child {
+    border-right: none;
+}
+
+.offer_price {
+    color: #0041e6;
+}
+
+button:hover, button:focus {
+    cursor:pointer;
+    color: white;
+    background-color: #1a83fc;
+}
+
+/* button:active {
+    color: #1a83fc;
+    background: none;
+} */
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px 1px #888;
+}
+
+section:hover .offer_img {
+    transform: translateY(-10px);
+    /* box-shadow: 0 0 10px 3px #ff0; */
+}
+
+section:hover .offer_title {
+    color: black;
+}
+
+#recom {
+    font-size: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        border-right: 0px;
+        border-bottom: 2px solid #ccc;
+        min-width: 80%;
+    }
+
+    section:last-child {
+        border: none;
+    }
+
+    /* button {
+        font-size: 0rem;
+    } */
+}
+
+@media (min-width: 769px) {
+    section {
+        border-right: 2px solid #ccc;
+    }
+}

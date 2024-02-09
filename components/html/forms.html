@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    file:///C:/tacos?username=chickenman
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <button>IN THE MIDDLE!</button>
+        <p>
+            <label for="color">Enter a Color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label>Enter a Number:
+                <input type="number" placeholder="enter number" min="0" max="100" step="2" name="num">
+            </label>
+        </p>
+        <!-- 아래의 버튼은 '버튼'으로서의 기능만 하게 된다. (제출안됨) -->
+        <button type="button">Regular Button</button>
+        <!-- form 안에서의 버튼은 타입 지정이 없는 경우 기본적으로 제출의 역할을 하게된다. -->
+        <button>Submit</button>
+        <!-- 해당 인풋 기능도 제출 기능이지만 버튼이 더 편리하다. -->
+        <input type="submit" value="Click Me!">
+    </form>
+    <hr>
+    <!-- form 밖에서의 버튼의 기본 속성은 '버튼'이다. -->
+    <button>Not Inside Form</button>
+    <hr>
+    <h2>Hijacking Searches</h2>
+    <h3>Reddit</h3>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <h3>Google</h3>
+    <form action="https://www.google.com/search?">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <h3>Youtube</h3>
+    <form action="https://youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+    <hr>
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="">-- Choose menu down below --</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegiterian</option>
+                <option value="steak" selected>Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" min="0" max="100" step="5" value="30" name="cheese_level">
+        </p>
+        <p>
+            <label for="request">Any Special Request?</label>
+            <br>
+            <textarea name="request" id="request" placeholder="Let us know!" rows="10" cols="40"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

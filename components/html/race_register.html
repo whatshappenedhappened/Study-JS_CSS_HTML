@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Race Registration</title>
+    </head>
+    <body>
+        <h1>Race Registration!</h1>
+        <form action="/register">
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first" minlength="1" maxlength="20" required>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last" minlength="1" maxlength="20" required>
+            </p>
+            <p>
+                <label for="race">Select a Race:</label>
+            </p>
+            <p>
+                <div>
+                    <input type="radio" name="race" id="fun" value="fun" required>
+                    <label for="fun">Fun Run 5k</label>
+                </div>
+                <div>
+                    <input type="radio" name="race" id="half" value="half" required>
+                    <label for="half">Half Marathon</label>
+                </div>
+                <div>
+                    <input type="radio" name="race" id="full" value="full" required>
+                    <label for="full">Full Marathon</label>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div>
+                    <label for="age">Select Age Group</label>
+                    <select id="age">
+                        <option name="under18" value="under18">under 18</option>
+                        <option name="18-29" value="18-29">18-29</option>
+                        <option name="30-49" value="30-49">30-49</option>
+                        <option name="50+" value="50+">50+</option>
+                    </select>
+                </div>
+                <button>Register!</button>
+            </p>
+        </form>
+        
+    </body>
+</html>

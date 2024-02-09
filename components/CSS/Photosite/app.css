@@ -1,0 +1,21 @@
+body {
+    font-family: 'signika negative';
+    /* letter-spacing: 0.05em; */
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid lightgrey;
+    width: 30%;
+    padding: 0.7em 0;
+    margin-left: calc(10%/6);
+}
+
+img {
+    margin: calc(10%/6);
+    width: 30%;
+    height: 30%;
+}

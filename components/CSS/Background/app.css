@@ -1,0 +1,19 @@
+body {
+    color: white;
+    font-family: Nunito, sans-serif;
+}
+
+section {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("https://images.unsplash.com/photo-1706562018171-7fefa57d37af?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3 {
+    font-family: Roboto, 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: white;
+}

@@ -1,0 +1,27 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+}
+
+
+span {
+    display: inline-block;
+}
+
+
+
+article {
+    font-size: 20px;
+}
+
+article h1 {
+    font-size: 2em;
+    margin: 3em;
+}

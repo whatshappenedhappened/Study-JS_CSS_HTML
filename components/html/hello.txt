@@ -1,0 +1,2 @@
+format on save : ON;
+auto-format button : alt + shift + F;

@@ -1,0 +1,130 @@
+nav > button {
+    font-size: 20px;
+    background-color: #003049;
+    color: white;
+}
+
+#signup {
+    background-color: midnightblue;
+    color: white;
+}
+
+nav.top {
+    padding: 10px;
+    background-color: #e9edc9;
+}
+
+input[type="password"] {
+    color: lightgreen;
+}
+
+h1, h2 {
+    color: #003049;
+}
+
+input + button {
+    background-color: plum;
+    color: black;
+}
+
+body {
+    background-color: #fefae0;
+}
+
+footer {
+    padding: 10px;
+    background-color: #faedcd;
+}
+
+footer li a {
+    color: firebrick;
+}
+
+footer a {
+    color: teal;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color:darkcyan;
+    color: whitesmoke;
+}
+
+section > span {
+    color: teal;
+}
+
+.post {
+    padding: 5px;
+}
+
+.post a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tag {
+    background-color:firebrick;
+    color: white;
+    font-size: 16px;
+}
+
+.post button:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: darkred;
+}
+
+body:has(#darkmode:checked) {
+    background-color: #3f3f3f;
+    color: black;
+}
+
+body:has(#darkmode:checked)>main .mainwords, body:has(#darkmode:checked) label {
+    color: whitesmoke;
+}
+
+body:has(#darkmode:checked) nav.top, body:has(#darkmode:checked) footer {
+    background-color:darkslategray;
+}
+
+body:has(#darkmode:checked) .post button {
+    background-color: darkslateblue;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #dedac0;
+}
+
+body:has(#darkmode:checked) .post:nth-of-type(2n) {
+    background-color: #2f2f2f;
+}
+
+h2::first-letter {
+    font-size: 30px; 
+    color: hotpink;
+}
+
+::selection {
+    background-color: #d4a373;
+}
+
+body:has(#darkmode:checked)::selection {
+    background-color: #946333;
+}
+
+button:hover {
+    background-color: olive;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #0d1b2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 10px auto;
+    padding: 1em 2em;
+    border: 2px solid #f9844a;
+    color: #f9844a;
+    background-color: transparent;
+    font-size: 1em;
+    transition: color 0.2s, border 0.1s, border-color 0.2s, transform 0.2s, box-shadow 0.2s, scale 0.1s;
+}
+
+button:hover {
+    color: white;
+    border-color: white;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.5em rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    border: 5px solid white;
+    /* text-shadow: 0 0 2px 1px white; */
+    box-shadow: 0 0 2px 1px white;
+    /* transform: scale(0.9); */
+}
