@@ -5,8 +5,10 @@ to my tiny study used repository for JS CSS HTML!
 
 ## candy_museum
 <p align="center">
-  <img src="https://github.com/whatshappenedhappened/Study-JS_CSS_HTML/assets/117697210/4ceb025d-d006-41f1-a72c-d4a99c833bd7" width="40%"></img>
-  <img src="https://github.com/whatshappenedhappened/Study-JS_CSS_HTML/assets/117697210/a2d8687a-a4e7-4f54-bd15-5c6c497da914" width="100%"></img>
+  <img src="https://github.com/whatshappenedhappened/Study-JS_CSS_HTML/assets/117697210/9f03fcf1-f362-4b0a-aaf3-097a4922dd17" width="100%"></img>
+  <img src="https://github.com/whatshappenedhappened/Study-JS_CSS_HTML/assets/117697210/9c6ca9d8-9cdc-49ca-83a8-b22916e94438" width="40%"></img>
+
+
 </p>
 
 * candy_museum.html
